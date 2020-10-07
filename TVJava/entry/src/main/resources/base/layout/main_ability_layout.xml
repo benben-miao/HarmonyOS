@@ -1,0 +1,26 @@
+<DirectionalLayout
+        xmlns:harmonyos="http://schemas.huawei.com/res/harmonyos"
+        harmonyos:width="match_parent"
+        harmonyos:height="match_parent"
+        harmonyos:orientation="vertical"
+        harmonyos:padding="32">
+    <Text
+            harmonyos:id="$+id:mainText"
+            harmonyos:width="match_parent"
+            harmonyos:height="wrap_content"
+            harmonyos:layout_alignment="center_horizontal"
+            harmonyos:text="主窗口"
+            harmonyos:background_element="#9fd6aa"
+
+
+            harmonyos:text_size="200"/>
+    <Button
+            harmonyos:id="$+id:btnBAbility"
+            harmonyos:width="match_parent"
+            harmonyos:height="wrap_content"
+            harmonyos:layout_alignment="center_horizontal"
+            harmonyos:text="new ability page"
+
+            harmonyos:text_size="100"/>
+
+</DirectionalLayout>

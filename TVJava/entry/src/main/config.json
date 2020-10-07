@@ -1,0 +1,73 @@
+{
+  "app": {
+    "vendor": "example",
+    "bundleName": "com.example.PhoneHap",
+    "version": {
+      "code": 1,
+      "name": "1.0"
+    },
+    "apiVersion": {
+      "compatible": 3,
+      "target": 3
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "deviceType": [
+      "default",
+      "tv",
+      "wearable"
+    ],
+    "abilities": [
+      {
+        "skills": [
+          {
+            "actions": [
+              "action.new"
+            ]
+          }
+        ],
+        "orientation": "landscape",
+        "visible": false,
+        "formEnabled": false,
+        "name": "com.example.myapplication.NewAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "MyApplication",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "orientation": "landscape",
+        "visible": false,
+        "formEnabled": false,
+        "name": "com.example.myapplication.MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "MyApplication",
+        "type": "page",
+        "launchType": "standard"
+      }
+    ],
+    "distro": {
+      "moduleType": "entry",
+      "deliveryWithInstall": true,
+      "moduleName": "entry"
+    },
+    "package": "com.example.PhoneHap",
+    "name": ".PhoneHap",
+    "reqCapabilities": [
+      "video_support"
+    ]
+  }
+}

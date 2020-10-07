@@ -1,0 +1,29 @@
+<DirectionalLayout
+        xmlns:harmonyos="http://schemas.huawei.com/res/harmonyos"
+        harmonyos:width="match_parent"
+        harmonyos:height="match_parent"
+        harmonyos:orientation="vertical"
+        harmonyos:padding="32">
+    <Button
+            harmonyos:id="$+id:back"
+            harmonyos:width="match_parent"
+            harmonyos:height="wrap_content"
+            harmonyos:layout_alignment="center_horizontal"
+            harmonyos:text="返回"
+            harmonyos:background_element="#9fd6aa"
+            harmonyos:clickable="true"
+            harmonyos:onClick="onClick_Back"
+
+            harmonyos:text_size="50"/>
+    <Button
+            harmonyos:id="$+id:ability"
+            harmonyos:width="match_parent"
+            harmonyos:height="wrap_content"
+            harmonyos:layout_alignment="center_horizontal"
+            harmonyos:text="Slice"
+            harmonyos:top_margin="10dp"
+            harmonyos:text_color="#FFFFFF"
+            harmonyos:background_element="#6d2b70"
+            harmonyos:text_size="50"/>
+
+</DirectionalLayout>

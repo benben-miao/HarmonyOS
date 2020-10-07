@@ -1,0 +1,15 @@
+<DirectionalLayout
+        xmlns:harmonyos="http://schemas.huawei.com/res/harmonyos"
+        harmonyos:width="match_parent"
+        harmonyos:height="match_parent"
+        harmonyos:orientation="vertical"
+        harmonyos:padding="32">
+    <Image
+            harmonyos:id="$+id:image"
+            harmonyos:width="match_parent"
+            harmonyos:height="match_parent"
+            harmonyos:layout_alignment="center_horizontal"
+            harmonyos:background_element="#00FFFF"
+            />
+
+</DirectionalLayout>

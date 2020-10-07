@@ -1,0 +1,23 @@
+<DirectionalLayout
+        xmlns:harmonyos="http://schemas.huawei.com/res/harmonyos"
+        harmonyos:width="match_parent"
+        harmonyos:height="match_parent"
+        harmonyos:orientation="vertical"
+        harmonyos:padding="32">
+    <ProgressBar
+            harmonyos:id="$+id:progress1"
+            harmonyos:width="200dp"
+            harmonyos:height="200dp"
+
+      />
+
+    <RoundProgressBar
+            harmonyos:id="$+id:progress2"
+            harmonyos:width="200dp"
+            harmonyos:height="200dp"
+            harmonyos:min="0"
+            harmonyos:max="100"
+            harmonyos:progress="34"
+            harmonyos:secondary_progress="60"
+    ></RoundProgressBar>
+</DirectionalLayout>

@@ -1,0 +1,37 @@
+<DirectionalLayout
+        xmlns:harmonyos="http://schemas.huawei.com/res/harmonyos"
+        harmonyos:width="match_parent"
+        harmonyos:height="match_parent"
+        harmonyos:orientation="vertical"
+        harmonyos:padding="32">
+    <Checkbox
+            harmonyos:id="$+id:checkbox1"
+            harmonyos:width="match_parent"
+            harmonyos:height="wrap_content"
+            harmonyos:layout_alignment="center_horizontal"
+            harmonyos:text="选择1"
+            harmonyos:text_color="#FF0000"
+            harmonyos:background_element="#00FFFF"
+            harmonyos:text_size="80"/>
+    <Checkbox
+            harmonyos:id="$+id:checkbox2"
+            harmonyos:width="match_parent"
+            harmonyos:height="wrap_content"
+            harmonyos:layout_alignment="center_horizontal"
+            harmonyos:text="选择2"
+            harmonyos:text_color="#00FF00"
+            harmonyos:background_element="#00FFFF"
+            harmonyos:text_size="80"/>
+    <Checkbox
+            harmonyos:id="$+id:checkbox3"
+
+            harmonyos:width="match_parent"
+            harmonyos:height="wrap_content"
+            harmonyos:layout_alignment="center_horizontal"
+            harmonyos:text="选择3"
+
+            harmonyos:text_color="#0000FF"
+            harmonyos:background_element="#00FFFF"
+            harmonyos:text_size="80"/>
+
+</DirectionalLayout>

@@ -1,0 +1,31 @@
+apply plugin: 'com.huawei.ohos.hap'
+ohos {
+    compileSdkVersion 3
+    defaultConfig {
+        compatibleSdkVersion 3
+    }
+//    signingConfigs {
+//        debug {
+//            storeFile file('D:/config/PhoneHap2.jks')//本地keystore
+//            storePassword '0000001E76D3447BDBCE29F834F9ABA5128E7E2B1483F13FCCA970FCAF758D5C01ACC156ADEC19D005740FF76351'
+////生成本地keystore时的-storepass参数
+//            keyAlias 'PhoneHap2 Debug'//生成本地keystore时的-alias参数
+//            keyPassword '0000001EEFAB2AEAF92F7C8027A59610707AA1E52C7AF6C67869CDD7FE5FDB23A91E04E13F708553D9DEFC8FF607'
+////keyPassword参数,pkcs12格式的keystore采用生成本地keystore时的-storepass参数
+//            signAlg 'SHA256withECDSA'//生成本地keystore时的-sigalg参数
+//            profile file('D:/config/HarmonyAppDebugProvision.p7b')//导入调试profile
+//            certpath file('D:/config/chengjiyuan c00414165.cer')//导入调试证书
+//        }
+//    }
+}
+sourceSets{
+    main{
+        java{
+            srcDir 'build\\generated\\source\\r\\debug'
+        }
+    }
+}
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile'junit:junit:4.12'
+}
